@@ -17,6 +17,7 @@
     font-weight: 400;
     color: #ffffff;
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 a, a:hover {
@@ -78,7 +79,7 @@ a, a:hover {
     font-size: 18px;
     text-transform: uppercase;
     display: flex;
-    max-width: 690px;
+    max-width: 689px;
     width: 100%;
     justify-content: space-evenly;
 }
@@ -116,14 +117,16 @@ a, a:hover {
     font-size: 150px;
     text-transform: uppercase;
     flex: 0 0 33%;
+    margin-top: -5px;
     margin-left: -8px;
 }
 .hero__text {
     font-family: var(--third-family);
     font-size: 20px;
     flex: 0 0 15%;
-    line-height: 130%;
-    margin-top: -5px;
+    line-height: 145%;
+    margin-top: -12px;
+    margin-left: -1px;
     padding-bottom: 15px;
 }
 .hero__image {
@@ -315,8 +318,8 @@ a, a:hover {
     justify-content: flex-end;
     gap: 148px;
     margin-top: 122px;
-    margin-right: -63px;
-    letter-spacing: 1.15px;
+    margin-right: -60px;
+    letter-spacing: 1.1px;
 }
 .group__input {
     width: 0;
